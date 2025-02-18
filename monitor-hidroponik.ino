@@ -42,7 +42,7 @@ void loop() {
 
   // Kirim data ke server PHP melalui HTTP POST
   if (WiFi.status() == WL_CONNECTED) {
-    http.begin(client, "http://10.201.1.192/php-iot/data.php");
+    http.begin(client, "http://192.168.1.0/php-iot/data.php");
     http.addHeader("Content-Type", "application/x-www-form-urlencoded");
 
     String postData = "temperature=" + String(t) + "&humidity=" + String(h) + "&waterLevel=" + String(waterLevel);

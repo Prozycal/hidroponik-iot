@@ -206,7 +206,7 @@ $conn->close();
     <div class="footer">
       <p>
         Proyek IoT Hidroponik - 
-        <a href="https://github.com/username/repository" target="_blank">GitHub</a>
+        <a href="https://github.com/Prozycal/hidroponik-iot" target="_blank">GitHub</a>
       </p>
     </div>
   </div>
